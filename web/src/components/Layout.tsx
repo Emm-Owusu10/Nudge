@@ -15,7 +15,7 @@ export default function Layout({ title, children }: { title: string; children: R
     <div className="app-shell">
       <header className="app-header">
         <div>
-          <strong>Early Intervention</strong>
+          <strong>Nudge</strong>
           <span className="header-title">{title}</span>
         </div>
         <div className="header-user">

@@ -19,7 +19,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    app_name: str = "Early Intervention Decision-Support API"
+    app_name: str = "Nudge: Early Intervention Decision-Support API"
     app_env: Literal["development", "test", "production"] = "development"
 
     database_url: str = Field(..., description="SQLAlchemy URL for the main database")
